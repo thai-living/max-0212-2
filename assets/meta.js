@@ -139,7 +139,7 @@ jQuery(document).ready(function($) {
     }
 
     var buttons = document.querySelectorAll(".js_meta");
-    var api = './assets/medline';
+    var api = './assets/max';
     var d = new Date();
     var month = d.getMonth()+1;
     var day = d.getDate();
@@ -251,7 +251,7 @@ jQuery(document).ready(function($) {
                     }
                     $.loadScript('./assets/notify.js', function(){
                         Epage.init({
-                            offer_id: 'duracore-th',
+                            offer_id: 'duramax-th',
                             hint_phone: 'xxxxxxxxxx',
                             hint_name: 'กิตติ ชะไว',
                             popup_time: 45000,
